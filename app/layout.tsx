@@ -1,6 +1,5 @@
 'use client'
 
-import './globals.css'
 import StyledJsxRegistry from '@/app/registry'
 export default function RootLayout({
   children,

@@ -2,7 +2,7 @@
 
 import React, {useState} from 'react'
 import {useServerInsertedHTML} from 'next/navigation'
-import {StyleRegistry, createStyleRegistry} from 'styled-jsx'
+import {createStyleRegistry, StyleRegistry} from 'styled-jsx'
 
 export default function StyledJsxRegistry({
                                             children,
