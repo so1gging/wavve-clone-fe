@@ -40,6 +40,7 @@ const resetcss = css`
   textarea {
     font-size: 16px;
     line-height: 24px;
+    color: #a5a5a5;
   }
   h1,
   h2,
