@@ -1,17 +1,16 @@
 'use client'
 
 import StyledJsxRegistry from '@/app/registry'
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+import { ThemeProvider } from '@emotion/react'
+import { theme } from '@/libs/styles/theme'
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>
-      <StyledJsxRegistry>
-      {children}
-      </StyledJsxRegistry>
+        <StyledJsxRegistry>
+          <ThemeProvider theme={theme}>{children}</ThemeProvider>
+        </StyledJsxRegistry>
       </body>
     </html>
   )
