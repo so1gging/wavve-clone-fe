@@ -1,6 +1,10 @@
 import { css, Global } from '@emotion/react'
 
 const resetcss = css`
+  body {
+    background-color: #1b1b1b;
+  }
+
   body,
   button,
   dd,
