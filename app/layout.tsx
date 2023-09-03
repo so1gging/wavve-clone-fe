@@ -5,6 +5,7 @@ import { ThemeProvider } from '@emotion/react'
 import { theme } from '@/libs/styles/theme'
 import { Noto_Sans_KR } from 'next/font/google'
 import GlobalStyle from '@/libs/styles/GlobalStyle'
+import Header from '@/templates/main/Header'
 
 const notoSansKr = Noto_Sans_KR({
   weight: ['100', '300', '400', '500', '700', '900'],
@@ -28,7 +29,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <body className={notoSansKr.className}>
           <StyledJsxRegistry>
             <GlobalStyle />
-            <ThemeProvider theme={theme}>{children}</ThemeProvider>
+            <ThemeProvider theme={theme}>
+              <Header />
+              {children}
+            </ThemeProvider>
           </StyledJsxRegistry>
         </body>
       </html>
