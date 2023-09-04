@@ -11,6 +11,10 @@ const typography = {
     fontSize: '24px',
     lineHeight: '36px',
   },
+  subTitle: {
+    fontSize: '20px',
+    lineHeight: '22px',
+  },
   body: {
     fontSize: '16px',
     lineHeight: '24px',
