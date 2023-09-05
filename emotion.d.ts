@@ -1,7 +1,7 @@
 import '@emotion/react'
 
 type palette = 'primary' | 'black' | 'white' | 'gray' | 'semiGray'
-type typography = 'title' | 'subTitle' | 'body' | 'caption'
+type typography = 'title' | 'subTitle' | 'body' | 'caption1' | 'caption2'
 
 declare module '@emotion/react' {
   export interface Theme {

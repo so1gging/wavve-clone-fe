@@ -9,7 +9,7 @@ export default function Nav() {
         margin: '0 auto',
       })}
     >
-      <ul css={css({ display: 'flex', float: 'right', padding: '8px 0', alignItems: 'center' })}>
+      <ul css={css({ display: 'flex', float: 'right', height: '34px', alignItems: 'center' })}>
         <NavItem title="로그인" />
         <NavItem title="이용권" />
         <NavItem title="쿠폰.코인" />

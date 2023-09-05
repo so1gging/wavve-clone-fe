@@ -19,9 +19,13 @@ const typography = {
     fontSize: '16px',
     lineHeight: '24px',
   },
-  caption: {
+  caption1: {
     fontSize: '14px',
     lineHeight: '20px',
+  },
+  caption2: {
+    fontSize: '12px',
+    lineHeight: '34px',
   },
 }
 

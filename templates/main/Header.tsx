@@ -2,7 +2,6 @@
 import { css } from '@emotion/react'
 import Nav from '@/templates/main/Nav'
 import Divider from '@/components/Divider/Divider'
-import { theme } from '@/libs/styles/theme'
 import Gnb from '@/templates/main/Gnb'
 
 export default function Header() {
@@ -14,7 +13,7 @@ export default function Header() {
       })}
     >
       <Nav />
-      <Divider color={theme.palette.semiGray} />
+      <Divider />
       <Gnb />
     </div>
   )
